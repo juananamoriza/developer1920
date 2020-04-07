@@ -55,7 +55,7 @@ insert into empleado values
 
 
 DROP TABLE DEPARTAMENTO;
-
+-- Ahora se crea la tabla
 CREATE TABLE DEPARTAMENTO
 (
 NUM_DEPTO	NUMBER(2),
