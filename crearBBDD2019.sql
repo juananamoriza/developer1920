@@ -55,7 +55,7 @@ insert into empleado values
 
 
 DROP TABLE DEPARTAMENTO;
-
+-- comentario para provocar conflicto
 CREATE TABLE DEPARTAMENTO
 (
 NUM_DEPTO	NUMBER(2),
