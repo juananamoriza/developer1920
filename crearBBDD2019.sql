@@ -1,5 +1,5 @@
-drop table EMPLEADO;
--- Ahora se crea  la tabla empleado
+drop table EMPLEADO
+
 create table EMPLEADO
 (
 num_emp	number(4),
@@ -11,7 +11,7 @@ salario	number(7,2),
 comision	number(7,2),
 num_dep	NUMBER(2))
 /
--- Ahora se insertan las tuplas de empleado
+
 insert into empleado values
 (1001, 'AGUADO URBINA AARON', 'PROGRAMADOR', 1003, TO_DATE('16/09/2001','DD/MM/YYYY'), 900, 0, 4);
 insert into empleado values
@@ -55,7 +55,7 @@ insert into empleado values
 
 
 DROP TABLE DEPARTAMENTO;
--- Ahora se crea la tabla departamento
+
 CREATE TABLE DEPARTAMENTO
 (
 NUM_DEPTO	NUMBER(2),
