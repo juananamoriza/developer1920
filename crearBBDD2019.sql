@@ -1,5 +1,5 @@
 drop table EMPLEADO;
-
+-- Ahora se crea  la tabla empleado
 create table EMPLEADO
 (
 num_emp	number(4),
