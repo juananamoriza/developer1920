@@ -1,4 +1,4 @@
-drop table EMPLEADO
+drop table EMPLEADO;
 
 create table EMPLEADO
 (
